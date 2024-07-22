@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>notification</title>
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <div class="msg"></div>
+            <div class="box-1">
+                <h1>Title</h1>
+                <input id="txt" type="text" placeholder="Enter a title...">
+                <h1>Message</h1>
+                <textarea name="" id="textarea" cols="19" rows="3" placeholder="Enter a message..."></textarea>
+            </div>
+            <div class="box-2">
+                <h1>Toast Type</h1>
+                <div class="sucess">
+                    <input type="radio" name="radio" id="radioinput1" value="Success">
+                    <label for="radio">Success</label>
+                    <input type="radio" name="radio" id="radioinput1" value="Info">
+                    <label for="radio">Info</label>
+                    <input type="radio" name="radio" id="radioinput1" value="Warning">
+                    <label for="radio">Warning</label>
+                    <input type="radio" name="radio" id="radioinput1" value="Error">
+                    <label for="radio">Error</label>
+                </div>
+                <h1>Position</h1>
+                <input type="radio" name="radio2" id="position" value="TopRight"  checked>
+                <label for="radio2">Top Right</label>
+                <br>
+                <input type="radio" name="radio2" id="position" value="BottomRight">
+                <label for="radio2">Bottom Right</label>
+                <br>
+                <input type="radio" name="radio2" id="position" value="Bottomleft">
+                <label for="radio2">Bottom Left</label>
+                <br>
+                <input type="radio" name="radio2" id="position" value="Topleft">
+                <label for="radio2">Top Left</label>
+
+            </div>
+            <button>Click</button>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
